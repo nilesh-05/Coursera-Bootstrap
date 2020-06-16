@@ -33,3 +33,9 @@ body{
 .navbar-dark{
     background-color: #512DAB;
 }
+.tab-content{
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 10px;
+}
