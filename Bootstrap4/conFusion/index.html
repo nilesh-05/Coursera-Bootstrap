@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 	<head>
 		<title>Ristorante Con Fusion</title>
-	</head> 
+	</head>
 
 	<body>
 		<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
@@ -20,7 +20,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a href="#" class="navbar-brand"><img src="img/logo.png" height="30px" width="41px"></a>
+				<a href="#" class="navbar-brand"><img src="img/logo.png" height="30px" width="41px" /></a>
 				<div class="collapse navbar-collapse" id="Navbar">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
@@ -48,8 +48,12 @@
 							We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!
 						</p>
 					</div>
-					<div class="col-12 col-sm align-self-center">
-						<img src="img/logo.png" class="img-fluid">
+					<div class="col-12 col-sm-3 align-self-center">
+						<img src="img/logo.png" class="img-fluid" />
+					</div>
+					<div class="col-12 col-sm-3 align-self-center">
+						<a href="#reserve"><button class="btn btn-warning"
+							data-toggle="tooltip" data-html="true" title="Or call us at +82512345678" data-placement="bottom">Reserve a table</button></a>
 					</div>
 				</div>
 			</div>
@@ -62,13 +66,16 @@
 				</div>
 				<div class="col col-sm order-sm-first col-md">
 					<div class="media">
-						<img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthapizza" >
+						<img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthapizza" />
 						<div class="media-body">
-							<h2 class="mt-0">Uthappizza <h6><span class="badge badge-danger" >HOT</span> <span class="bage badge-pill badge-secondary">$4.99</span></h6></h2>
-					<p class="d-none d-sm-block">
-						A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies
-						and Buffalo Paneer.
-					</p>
+							<h2 class="mt-0">
+								Uthappizza
+								<h6><span class="badge badge-danger">HOT</span> <span class="bage badge-pill badge-secondary">$4.99</span></h6>
+							</h2>
+							<p class="d-none d-sm-block">
+								A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur
+								chillies and Buffalo Paneer.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -80,13 +87,13 @@
 				</div>
 				<div class="col col-sm col-md">
 					<div class="media">
-						<img src="img/buffet.png" alt="buffet" class="d-flex mr-3 img-thumbnail align-self-center">
+						<img src="img/buffet.png" alt="buffet" class="d-flex mr-3 img-thumbnail align-self-center" />
 						<div class="media-body">
 							<h2 class="mt-0">Weekend Grand Buffet</h2>
-					<p>
-						Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free
-						flowing bubbly and soft drinks. All for just $19.99 per person
-					</p>
+							<p>
+								Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts.
+								Free flowing bubbly and soft drinks. All for just $19.99 per person
+							</p>
 						</div>
 					</div>
 				</div>
@@ -98,15 +105,83 @@
 				</div>
 				<div class="col col-sm order-sm-first col-md">
 					<div class="media">
-						<img src="img/alberto.png" alt="alberto" class="d-flex img-thumbnail mr-3 align-self-center">
+						<img src="img/alberto.png" alt="alberto" class="d-flex img-thumbnail mr-3 align-self-center" />
 						<div class="media-body">
 							<h2 class="mt-0">Alberto Somayya</h2>
 							<h4>Executive Chef</h4>
-					<p>
-						Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in
-						creating mouthwatering Indo-Italian fusion experiences.
-					</p>
+							<p>
+								Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes
+								in creating mouthwatering Indo-Italian fusion experiences.
+							</p>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-content d-flex justify-content-center" id="reserve">
+				<div class="card" style="width: 600px; height: 300px;">
+					<h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+					<div class="card-body">
+						<dl class="row">
+							<dt class="col-3">Number of Guests</dt>
+							<dd class="col-8">
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="guests" id="1" value="option1"  />
+									<label class="form-check-label" for="1">
+										1
+									</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="guests" id="2" value="option2" />
+									<label class="form-check-label" for="2">
+										2
+									</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="guests" id="3" value="option3"  />
+									<label class="form-check-label" for="3">
+										3
+									</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="guests" id="4" value="option4" />
+									<label class="form-check-label" for="4">
+										4
+									</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="guests" id="5" value="option5"/>
+									<label class="form-check-label" for="5">
+										5
+									</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="guests" id="6" value="option6" />
+									<label class="form-check-label" for="6">
+										6
+									</label>
+								</div>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt class="col-3">Date and Time</dt>
+							<dd class="col-8">
+								<form>
+									<div class="form-row">
+										<div class="col">
+											<input type="text" class="form-control" placeholder="Date" />
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" placeholder="Time" />
+										</div>
+									</div>
+								</form>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dd class="col-8 offset-3">
+								<button type="submit" class="btn btn-primary">Reserve</button>
+							</dd>
+						</dl>
 					</div>
 				</div>
 			</div>
@@ -157,5 +232,10 @@
 		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();
+			})
+		</script>
 	</body>
 </html>
